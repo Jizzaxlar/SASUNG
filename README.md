@@ -1,2 +1,1 @@
-# SASUNG
-90FPS
+termux-setup-storage && pkg update && pkg upgrade -y && pkg install git -y && git clone https://github.com/SASUNG/90Fps && pkg install libandroid-wordexp && cd 90Fps && chmod +x setup g4fps && ./setup
